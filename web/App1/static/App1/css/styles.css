@@ -1,8 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+background-color: rgb(4, 35, 147);
+height: 25px;
+font-size: 20px;
+color:rgb(2, 160, 244);
+display: flex;
+justify-content: space-around;
+}
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
+    color: gold;
     font-weight: bold;
     text-decoration: underline;
     letter-spacing: 5px;
     text-shadow: 5px 2px 4px rgba(171, 194, 22, 0.943);
+
+}
+.BARRA{
+   float: left;
+}
+.BARRA ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 8px;
+}
+.BARRA ul li:hover{
+    color: aquamarine;
+}
+.NAVEGACION{
+    display: ;
 }
